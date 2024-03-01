@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  box-sizing: border-box;
+  color: #ffff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:black;
+  background-attachment: fixed;
+  overflow-x: hidden;
+
+}
+
+img{
+  width: 300px;
+  
+}
+
+.container {
+  width: 740px;
+  background: rgba( 255, 255, 255, 0.65 );
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba(225, 226, 242, 0.094);
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
+  border-radius: 10px;
+  padding: 30px 30px 25px;
+  border-radius: 14px;
+}
+
+.container header {
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container content {
+  margin: 34px;
+}
+
+.content .textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hadis {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.textarea i:first-child {
+  margin: 20px;
+}
+
+.textarea i:last-child {
+  margin: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .buttons {
+  border-top: 25px;
+}
+
+.buttons .feature {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.feature ul {
+  padding-right: 5%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.newb {
+  width: 8em;
+  height: 3.5em;
+  color: rgb(193, 192, 192);
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #252525;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-radius: 40px;
+}
+
+.newb:hover {
+  border: 1px solid rgb(94, 5, 94);
+  transition-duration: 1s;
+  background-color:#ffff;
+  color: rgb(0, 0, 0);
+}
+
+#backbutton{
+  width: 30px;
+  height: 30px;
+}
+
+.feature ul {
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width:320px) {
+   img{
+    width: 150px;
+   }
+  .container{
+    width: 320px ;
+  }
+  .container #narrator{
+    font-size: 9px;
+  }
+  .container header {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .hadis {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    word-break: break-all;
+  }
+  .newb {
+    font-size: 12px;
+    width: 8em;
+    height: 4em;
+
+  }
+  .buttons{
+  margin-top: 10%;
+  }
+
+  .buttons .feature {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+}
+
+@media screen and (max-width:375px){
+  img{
+    width: 200px;
+   }
+  .container{
+    width: 360px ;
+  }
+  .container #narrator{
+    font-size: 9.5px;
+  }
+  .container header {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .hadis {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    word-break: break-all;
+  }
+  .newb {
+    font-size: 12px;
+    width: 8em;
+    height: 4em;
+
+  }
+  .buttons{
+  margin-top: 10%;
+  }
+
+  .buttons .feature {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+
+}
+
+@media screen and (max-width:425px){
+  img{
+    width: 220px;
+   }
+  .container{
+    width: 360px ;
+  }
+  .container #narrator{
+    font-size: 9.5px;
+  }
+  .container header {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .hadis {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    word-break: break-all;
+  }
+  .newb {
+    font-size: 12px;
+    width: 8em;
+    height: 4em;
+
+  }
+  .buttons{
+  margin-top: 10%;
+  }
+
+  .buttons .feature {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+}
